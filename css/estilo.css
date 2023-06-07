@@ -1,0 +1,107 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: arial;
+   text-align: justify;
+   background-color: white ;
+}
+
+#menu-h{
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+}
+
+#menu-h li{
+    display: inline;
+    padding: 30px;
+
+}
+
+#menu-h li a{
+    color: #7bb94e;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+   
+}
+
+#menu-h li a:hover {
+    background-color: #67f80062;
+}
+#wallpaper{
+    background-image: url(../img/agricultura.jpeg);
+    width: 1903px;
+    height: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px ;
+    }
+
+#desenvolvimento{
+    width: 800px;
+}
+
+.texto1{
+    font-size: 19px;
+}
+
+footer {
+    width: 800px;
+    background-color: white;
+    clear: both;
+}
+
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: #8880FE;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form input {
+    background: #7ab5cb;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    border: 1px solid #7ab5cb;
+    border-radius: 8px;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #6C63FF;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+main form input[type="submit"]:hover {
+    background: #5952d4;
+}
+

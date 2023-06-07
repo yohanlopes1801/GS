@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+ <head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/estilo.css">
+   <script src="js/script.js"></script>
+   <title>CADASTRO DO CLIENTE</title>
+ </head>
+    <body id="fundopagina2">
+          <main>
+            <form name="frmLogin" action="enviosimg.html" method="post" onsubmit="return validar();">
+              <label for="txtEmail">E-mail</label>
+              <input type="email" id="txtEmail" name="txtEmail">
+              <br>
+              <label  for="txtNomeCompleto">Nome Completo (Obrigatorio)</label>
+              <input type="text" name="txtNomeCompleto" id="txtNomeCompleto">
+              <br>
+              <label for="txtCPF">CPF (Obrigatorio)</label>
+              <input type="text" name="txtCPF"  maxlength="11" placeholder="Somente numeros" id="txtCPF">
+              <br>
+              <label for="txtEndereco">Enedereço (Obrigatorio)</label>
+              <input type="text" name="txtEndereco" id="txtEndereco">
+              <br>
+              <label for="txtDataNasc">Data Nacimento (Obrigatorio)</label>
+              <input type="date" name="txtDataNasc"  placeholder="data" id="txtDataNasc">
+              <br>
+              <label for="pwdPass">Senha (Obrigatorio)</label>
+              <input type="password" id="pwdPass" name="pwdPass">
+              <br>
+              <input type="submit" value="login">
+              <br>
+              <div id="erro" ></div>
+            </form>
+        </main>
+    </body>
+    </html>

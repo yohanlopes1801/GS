@@ -1,0 +1,55 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+   font-family: arial;
+   text-align: justify;
+   background-color: white ;
+}
+#menu-h{
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+}
+
+#menu-h li{
+    display: inline;
+    padding: 30px;
+
+}
+
+#menu-h li a{
+    color: #002861;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+   
+}
+
+#menu-h li a:hover {
+    background-color: #0401aa81;
+}
+
+#wallpaper2{
+    background-image: url(../img/ia.jpeg);
+    width: 1903 px;
+    height: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px ;
+}
+
+#desenvolvimento{
+    width: 800px;
+}
+
+.texto1{
+    font-size: 19px;
+}
+
+footer {
+    width: 800px;
+    background-color: white;
+    clear: both;
+}
